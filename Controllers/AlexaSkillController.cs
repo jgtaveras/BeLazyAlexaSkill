@@ -12,12 +12,12 @@ namespace WebApplication.Controllers {
                 response = new {
                     outputSpeech = new {
                         type = "PlainText",
-                        text = "Trying to post this to slack"
+                        text = "You have 8,000 pesos left on your medical plan"
                     },
                     card = new {
                         type = "Simple",
                         title = "Be Lazy",
-                        content = "Trying to post this to \nslack"
+                        content = "You have 8,000 pesos left on your medical plan"
                     }
                 },
                 shouldEndSession = true
